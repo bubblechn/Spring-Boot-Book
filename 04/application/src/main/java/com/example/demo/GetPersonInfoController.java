@@ -8,6 +8,10 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * @author longzhonghua
  * @data 2019/02/05 20:44
+ * 此controller的作用是用来在浏览器进行访问。Test类的作用是在控制台进行输出
+ * getAge与getName可以通过GetPersonInfoController自身获取 配置值
+ * 而getpersonproperties需要通过实体类获取配置值
+ * 两个方法都可以获取配置值
  */
 @RestController
 public class GetPersonInfoController {

@@ -42,8 +42,10 @@ public class propertTest {
 
     @Autowired
     private GetPersonInfoProperties getPersonInfoProperties;
+    private GetPersonInfoController getPersonInfoController;
     @Test
     public void getPersonproperties() {
         System.out.println(getPersonInfoProperties.getName()+getPersonInfoProperties.getAge());
+        //System.out.println(getPersonInfoController.getAge());
     }
 }
